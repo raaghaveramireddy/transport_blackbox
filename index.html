@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Transport</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .product-container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        .product-image {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+        }
+        .product-details {
+            margin-left: 50px;
+        }
+        footer {
+            background-color: #f8f9fa;
+            padding: 10px;
+            text-align: center;
+        }
+        form {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        form h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#">Home</a>
+        <a href="#">Product</a>
+        <a href="#">Contact</a>
+    </header>
+    <div class="product-container">
+        <img class="product-image" src="https://via.placeholder.com/300x300.png?text=Product+Image" alt="Product Image">
+        <div class="product-details">
+            <h1>Apple Product</h1>
+            <p>This is a sample description of the Apple product. It is a high-quality product with many features and benefits.</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+    <footer>
+        &copy; 2023 Online Transport. All rights reserved.
+    </footer>
+    <form>
+        <h2>Contact Us</h2>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br>
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>
